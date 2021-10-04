@@ -7,34 +7,63 @@
     <title>Main page</title>
     
     <style>
+
+       div {
+           background-color:  yellow;
+       }
+        
         .container-no-1{
             background-color: #1f2937;
             padding-top: 20px;
             padding-left: 150px;
             padding-right: 150px;
             display: flex auto;
+            
         }
+ 
+        .divide-to-col{
+            background-color: violet;
+            flex-direction:  column;
+
+        }
+        
+
         .logo{
-            img {
             width: 75px;
             height: 75px;
-            }
+
         }
+        .links{
+            text-align: right;
+            text-align: top;
+            background-color: red;
+        
+        }
+
         
     </style>
 
 </head>
 <body>
-    <div class="container-no-1">
-        <div class="logo">
-            <img src="images/header logo.jpg"> 
-            <a href="https://www.youtube.com/">First link</a>
-            <a href="https://www.google.com/">Second link</a>
-            <a href="https://github.com/">Third link</a>
+    <div class="container-no-1 ">
+        <div class="divide-to-col">
+            <div > 
+                <div >
+                <img  class="logo" src="images/header logo.jpg"> 
+                </div>
+                <div class="links" >
+                <a href="https://www.youtube.com/" >First link</a>
+                <a href="https://www.google.com/">Second link</a>
+                <a href="https://github.com/">Third link</a>
+                </div>
+            </div>
         </div>
+        
+
         <div>
             <h1>This website is awesome</h1>
-            <p>This is a small subtext in the first paragarph</p>
+            <p>This is a small subtext in the first paragarph XXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         
             <button>Sign up</button>
             <p></p>
