@@ -17,15 +17,28 @@
             padding-top: 20px;
             padding-left: 150px;
             padding-right: 150px;
-            display: flex auto;
+            display: flex;
             
         }
  
         .divide-to-col{
             background-color: violet;
-            flex-direction:  column;
+            flex: 1;
+            display: flex;
 
         }
+
+        .box1-in-conatiner1 {
+            flex:1;
+            background-color: green;
+
+        }
+        .box2-in-conatiner1 {
+            flex: 1;
+            background-color: red;
+            justify-self: right;
+        }
+        
         
 
         .logo{
@@ -46,33 +59,34 @@
 </head>
 <body>
     <div class="container-no-1 ">
+        <div>
         <div class="divide-to-col">
-            <div > 
-                <div >
-                <img  class="logo" src="images/header logo.jpg"> 
-                </div>
-                <div class="links" >
+            <div class="box1-in-conatiner1">
+                <img  class="logo" src="images/header logo.png">
+            </div>
+            <div class="box2-in-conatiner1">
                 <a href="https://www.youtube.com/" >First link</a>
                 <a href="https://www.google.com/">Second link</a>
                 <a href="https://github.com/">Third link</a>
-                </div>
             </div>
         </div>
         
-
-        <div>
-            <h1>This website is awesome</h1>
+             <h1>This website is awesome</h1>
             <p>This is a small subtext in the first paragarph XXXXXXXXXXXXXX
                 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         
             <button>Sign up</button>
             <p></p>
             <img src="images/image.png" width="250px" height="250px">
-        </div>
         
-
+         
+        
+         
+           
+        
     </div>
-    
+    </div>
+  
 
 </body>
 </html>
