@@ -87,31 +87,43 @@
         }
 
         .container-no-2{
+
+            display: flex;
             background-color: aqua;
             padding-top: 20px;
             padding-left: 150px;
             padding-right: 150px;
             padding-bottom: 20px;
-            display: flex;
             justify-content: center;
+
         }
 
         .divide-boxes{
-            flex: 1;
-            align-items: center;
+
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
             background-color: blueviolet;
+            padding: 50px;
+            justify-content: center;
+
         }
 
         .box1-in-conatiner2{
-            flex: 1;
-            align-self: center;
 
+            display: flex;
+            font-size: 36px;
+            font-weight: bold;
+            color: #3882F6;
+            align-self: center;
+            padding-bottom: 20px;
             background-color: rgb(226, 43, 144);
             
         }
 
         .box2-in-conatiner2{
-            flex: 1;
+
+            display: flex;
             justify-content: space-evenly;
             background-color: rgb(226, 168, 43);
         }
@@ -119,6 +131,11 @@
             border-radius: 25px;
             width: 175px;
             height: 175px;
+        }
+
+        .box2-in-conatiner2-items{
+            background-color: brown;
+
         }
          
 
@@ -160,6 +177,22 @@
     </div>
 
     <div class="container-no-2">
+
+        <div class="divide-boxes">
+            <div class="box1-in-conatiner2">
+                This is some random potato informations
+            </div>
+
+            <div class="box2-in-conatiner2">
+                <p>
+                    <img src="images/french-fries.jpg" class="images-in-container2">
+            <img src="images/baked-potates.jpg" class="images-in-container2">
+            <img src="images/mashed-potato.jpg" class="images-in-container2">
+            <img src="images/roasted-potatoes.jpg" class="images-in-container2">
+                </p>
+            </div>
+
+        </div>
         
     </div>
 
