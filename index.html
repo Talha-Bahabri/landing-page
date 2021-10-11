@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Potato Land</title>
     
     <style>
 
@@ -43,6 +43,12 @@
         .box4-in-conatiner1 {
             flex: 1;
             justify-self: center;
+            padding-left: 50px;
+        }
+        .image-side{
+            width: 350px;
+            height: 300px;
+            border-radius: 20px;
         }
 
         #main-text-container1{
@@ -77,8 +83,11 @@
 
         }
         .links{
-            text-align: right;
-            text-align: top;
+            /* text-align: right;
+            text-align: top; */
+            padding-left: 20px;
+            font-size: 20px;
+            color: white;
         
         }
 
@@ -111,21 +120,22 @@
             font-weight: bolder;
             color: #1F2937;
             align-self: center;
-            padding-bottom: 20px;
+            padding-bottom: 50px;
             
         }
+
 
         .box2-in-conatiner2{
 
             display: flex;
             justify-content: space-evenly;
+            font-size: 20px;
             
-        }
+        }   
         .images-in-container2{
-            
             border-radius: 25px;
-            width: 175px;
-            height: 175px;
+            width: 200px;
+            height: 200px;
         }
 
         .box2-in-conatiner2-items{
@@ -208,12 +218,12 @@
             justify-content: center;
             background-color: #1F2937;
             font-size: 20px;
+            color: rgba(255, 255, 255, 0.829);
         }
 
 
 
 
-         
 
         
     </style>
@@ -227,9 +237,9 @@
                 <img  class="logo" src="images/header logo.png">
             </div>
             <div class="box2-in-conatiner1">
-                <a href="https://www.youtube.com/" >First link</a>
-                <a href="https://www.google.com/">Second link</a>
-                <a href="https://github.com/">Third link</a>
+                <a class="links" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/" >Youtube</a> 
+                <a class="links" target="_blank" rel="noopener noreferrer" href="https://www.google.com/">Google</a>
+                <a class="links" target="_blank" rel="noopener noreferrer" href="https://github.com/">Github</a>
             </div>
         </div>
         
@@ -243,8 +253,8 @@
             <button class="sign-in-button">Sign up</button>
             </div>
 
-            <div class="box4-in-conatiner1">
-            <img src="images/image.png" width="250px" height="250px">
+            <div class="box4-in-conatiner1 ">
+            <img class="image-side" src="images/side-image.jpg" >
             </div>
             
         
@@ -256,27 +266,31 @@
 
         <div class="divide-boxes">
             <div class="box1-in-conatiner2">
-                This is some random potato informations
+                Different dishes made possible only by a potato.
             </div>
 
             <div class="box2-in-conatiner2">
 
                 <div class="box2-in-conatiner2-items">
                     <img src="images/french-fries.jpg" class="images-in-container2">
-                    <p>A classic one, add Kutchup for the best expernince</p>
+                    <p><b>French fries </b>A classic one, add Kutchup for the best expernince.
+                    <br>somewhat difficult and time consuming, yet its worth the hassle.</p>
                 </div>
 
                 <div class="box2-in-conatiner2-items">
                     <img src="images/baked-potates.jpg" class="images-in-container2">
-                    <p>A classic one, add Kutchup for the best expernince</p>
+                    <p><b>Baked potatoes </b>can be easily done with other dishes in the oven.
+                    <br>You can be creative with it!</p>
                 </div>
                 <div class="box2-in-conatiner2-items">
                     <img src="images/mashed-potato.jpg" class="images-in-container2">
-                    <p>A classic one, add Kutchup for the best expernince</p>
+                    <p><b>Mashed potatoes </b> can be easily made into the main plate if done right. 
+                        <br> light and fluffy, yet simple and easy.</p>
                 </div>
                 <div class="box2-in-conatiner2-items">
                     <img src="images/roasted-potatoes.jpg" class="images-in-container2">
-                    <p>A classic one, add Kutchup for the best expernince</p>
+                    <p><b>Roasted potatoes </b>is great with everything. 
+                        <br> With it's crispy exterior to it's soft interior.</p>
                 </div>
                 
 
